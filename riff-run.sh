@@ -1,5 +1,6 @@
 
-source ~/josh-env-ubuntu/bin/gcp/gke.sh
+
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 
 export GCP_PROJECT=$PROJECT_ID
 echo "GCP_PROJECT: $GCP_PROJECT"

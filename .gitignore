@@ -1,4 +1,9 @@
 target
+.classpath
+.idea/
+.project
+.settings/
+uppercase.iml
 
 pom.xml.tag
 pom.xml.releaseBackup
